@@ -10,7 +10,7 @@ class Reserva extends Model
     protected $table = 'reservas';
 
     protected $fillable = ['id_reserva', 'fecha_entrada', 'fecha_salida', 'hora_entrada', 
-                           'hora_salida', 'cantidad_habitaciones', 'cantidad_personas'];
+                           'hora_salida', 'cantidad_habitaciones', 'cantidad_personas', 'precio'];
 
     protected $primaryKey = 'id_reserva';
 
